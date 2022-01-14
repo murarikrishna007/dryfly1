@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Rential Website | Html, Css, Js</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/19ee802c67.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <nav id="navBar">
+            <img src="images/drifly.logo.png" alt="" class="logo">
+            <ul class="nav-links">
+                <li><a href="#" class="active">Popular Place</a></li>
+                <li><a href="#">Travel Outside</a></li>
+                <li><a href="#">Online Packages</a></li>
+
+            </ul>
+            <a href="#" class="register-btn">Register Now</a>
+            <i class="fas fa-bars" onclick="togglebtn()"></i>
+        </nav>
+
+        <!-- container -->
+        <div class="container">
+            <h1>find your next stay</h1>
+            <div class="search-bar">
+                <form>
+                    <div class="location-input">
+                        <label for="">Location</label>
+                        <input type="text" placeholder="where are  you going?">
+
+                    </div>
+                    <div>
+                        <label for="">check in</label>
+                        <input type="text" placeholder="Add Date">
+
+                    </div>
+
+                    <div>
+                        <label for="">check out</label>
+                        <input type="text" placeholder="Add Date Out">
+
+                    </div>
+
+                    <div>
+                        <label for="">Guest</label>
+                        <input type="text" placeholder="Add Guest">
+
+                    </div>
+
+                    <button type="submit"><img src="images/search.png" alt=""></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- header end -->
+
+
+
+    <!-- 2 Tranding places-->
+    <div class="container">
+
+        <h2 class="sub-title">Tranding Places</h2>
+        <div class="trending">
+            <div>
+                <img src="images/dubai.png" alt="">
+                <h3>Dubai</h3>
+            </div>
+            <div>
+                <img src="images/new-york.png" alt="">
+                <h3>New-york</h3>
+            </div>
+            <div>
+                <img src="images/paris.png" alt="">
+                <h3>Paris</h3>
+            </div>
+
+            <div>
+                <img src="images/new-delhi.png" alt="">
+                <h3>New-Delhi</h3>
+            </div>
+        </div>
+
+        <!------CTA  3  call to action------>
+
+        <div class="cta">
+            <h3>Sharing <br> Is Earning Now</h3>
+            <p>Great oppertunity to make money <br> by Sharing your extra space.</p>
+            <a href="#" class="cta-btn">Know More</a>
+
+        </div>
+
+
+        <!-- 4 travellers stories section -->
+        <h2 class="sub-title">Travellers Stories</h2>
+
+        <div class="stories">
+            <div>
+                <img src="images/story-1.png" alt="">
+                <p>Popular European Countries With a Budget of Just $10,0000</p>
+
+            </div>
+            <div>
+                <img src="images/story-2.png" alt="">
+                <p>Traveled more than 100 countries in less than a year</p>
+
+            </div>
+            <div>
+                <img src="images/story-3.png" alt="">
+                <p>Best experience you get while travelling to Thailand</p>
+
+            </div>
+        </div>
+
+        <!-- 5 button sectin start -->
+        <a href="#" class="start-btn">Start making money</a>
+
+        <div class="about-msg">
+            <h2>About staynow</h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore placeat similique assumenda suscipit
+                nihil quibusdam, quaerat reiciendis provident dolorum animi incidunt accusantium rerum totam expedita
+                odit a quas est aliquam, voluptatibus enim minus nemo odio. Culpa enim sapiente eos tempore voluptatum
+                mollitia harum quam quibusdam quasi nisi possimus quos quaerat numquam modi dolor, odit voluptas.
+            </p>
+        </div>
+
+
+    </div>
+
+    <!-- -------footer section------------------------ -->
+    <footer>
+        <div class="main-content">
+            <div class="left box">
+                <h2>About Us</h2>
+                <div class="content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+                        perspiciatis fugit et cum quia labore doloremque, reiciendis
+                        numquam aliquam nihil amet vel ipsam.
+                    </p>
+                    <div class="social">
+                        <a href="#"><span class="fab fa-facebook-f"></span></a>
+                        <a href="#"><span class="fab fa-twitter"></span></a>
+                        <a href="#"><span class="fab fa-instagram"></span></a>
+                        <a href="#"><span class="fab fa-youtube"></span></a>
+
+                    </div>
+                </div>
+            </div>
+            <!-- center -->
+            <div class="center box">
+                <h2>Address</h2>
+                <div class="content">
+                    <div class="place">
+                        <span class="fas fa-map-marker-alt"></span>
+                        <span class="text">Khanpur Village,South-Delhi</span>
+                    </div>
+                    <div class="phone">
+                        <span class="fas fa-phone-alt"></span>
+                        <span class="text">+91-8284988623</span>
+                    </div>
+                    <div class="email">
+                        <span class="fas fa-envelope"></span>
+                        <span class="text">abc@exam.com</span>
+                    </div>
+                </div>
+            </div>
+            <!-- right side -->
+
+            <div class="right box">
+                <h2>content Us</h2>
+                <div class="content">
+                    <form action="#">
+                        <div class="email">
+                            <div class="text">Email*</div>
+                            <input type="email" required />
+                        </div>
+
+                        <div class="message">
+                            <div class="text">Message*</div>
+                            <textarea cols="25" rows="2" required></textarea>
+                        </div>
+                        <div class="btn">
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="button">
+            <center>
+                <span class="credit">Created by <a href="#">Coding With Krishna Murari</a> | </span>
+                <span class="far fa-copyright"></span><span>2022 All right reserved.</span>
+            </center>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
